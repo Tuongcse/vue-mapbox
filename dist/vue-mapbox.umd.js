@@ -4187,6 +4187,10 @@
             showUserLocation: {
               type: Boolean,
               default: true
+            },
+            showUserHeading: {
+              type: Boolean,
+              default: true
             }
           },
           created: function created() {

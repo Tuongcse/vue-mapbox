@@ -118,7 +118,7 @@ export default {
         }
         return false;
       },
-      set(value) {
+      set(!value) {
         if (this.map && this.popup) {
           if (!value) {
             this.popup.remove();

@@ -25,13 +25,19 @@ export default {
     },
     fitBoundsOptions: {
       type: Object,
-      default: () => ({ maxZoom: 15 })
+      default: () => ({
+        maxZoom: 15
+      })
     },
     trackUserLocation: {
       type: Boolean,
       default: false
     },
     showUserLocation: {
+      type: Boolean,
+      default: true
+    },
+    showUserHeading: {
       type: Boolean,
       default: true
     }

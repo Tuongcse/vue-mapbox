@@ -6053,9 +6053,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-mapbox-gl@Tuongcse/mapbox-gl-js#master:
-  version "1.7.0-dev"
-  resolved "https://codeload.github.com/Tuongcse/mapbox-gl-js/tar.gz/2b7c03a833415a2e3ea5d0981605c82ed697f4bf"
+mapbox-gl@^1.6.0:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/mapbox-gl/-/mapbox-gl-1.6.1.tgz#bc9beb2d7d6464b0d281a225a3f23bd3a84d9f49"
+  integrity sha512-qUvu8c/WX0woSLj8M64eK8351th4RI2+grGJ0ZlFb5ELEJNTb4SqMX/4uxRkb5d1euh2U72+AML1QOZjQnUPUw==
   dependencies:
     "@mapbox/geojson-rewind" "^0.4.0"
     "@mapbox/geojson-types" "^1.0.2"
